@@ -23,7 +23,7 @@
         Province 
         Postal code 
         Phone number 
-        
+
         Whether they are enrolling in the evening or weekend course(they can only enroll in one)
         What course they are enrolling in (they can only enroll in one)
         Advanced Python - ITCC 353
@@ -33,33 +33,48 @@
         Programming in C - ITCC 229
         Web Design for Mobile Applications - ITCC 182 -->
         <form action=“a” method=“post”>
-        <label>first name</label>
-        <input type =“text” id=“firstName” name=“firstName />
-        
-        <label>last name</label>
-        <input type =“text” id=“lastName” name=“lastName />
+            <label>first name</label>
+            <input type =“text” id=“firstName” name=“firstName />
+            
+            <label>last name</label>
+            <input type =“text” id=“lastName” name=“lastName />
 
-        <label>contact email</label>
-        <input type =“text” id=“contactEmail” name=“contactEmail />
+            <label>contact email</label>
+            <input type =“text” id=“contactEmail” name=“contactEmail />
 
-        <label>date of brith</label>
-        <input type =“text” id=“lastName” name=“lastName />
-        <!--for date of birth what input type we use? -->
+            <label>date of brith</label>
+            <input type =“text” id=“lastName” name=“lastName />
+            <!--for date of birth what input type we use? -->
 
-        <label>street address</label>
-        <input type =“text” id=“streetAddress” name=“streetAddress />
+            <label>street address</label>
+            <input type =“text” id=“streetAddress” name=“streetAddress />
 
-        <label>City</label>
-        <input type =“text” id=“city” name=“city />
+            <label>City</label>
+            <input type =“text” id=“city” name=“city />
 
-        <label>province</label>
-        <input type =“text” id=“province” name=“province />
+            <label>province</label>
+            <input type =“text” id=“province” name=“province />
 
-        <label>postal code</label>
-        <input type =“text” id=“postalCode” name=“postalCode />
+            <label>postal code</label>
+            <input type =“text” id=“postalCode” name=“postalCode />
 
-        <label>Phone number</label>
-        <input type =“tel” id=“phoneNumber” name=“phoneNumber />
+            <label>Phone number</label>
+            <input type =“tel” id=“phoneNumber” name=“phoneNumber />
+
+            <label>Evening or weekend</label>
+            <input type="radio" name="timeOfClass" value="evening"> evening
+            <input type="radio" name="timeOfClass" value="weekend"> weekend
+
+            <label>Select course</label>
+            <select name="course" required>
+                <option>Advanced Python - ITCC 353</option>
+                <option>Java Advanced - ITCC 118</option>
+                <option>Fundamentals of Cloud Computing - ITCC  630</option>
+                <option>Introduction to Project JavaScript - ITCC 138</option>
+                <option>Programming in C - ITCC 229</option>
+                <option>Web Design for Mobile Applications - ITCC 182</option>
+            </select>
+
 
         </form>
     </main>
