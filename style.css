@@ -1,0 +1,20 @@
+/* Index.html Style Sheet*/
+html {
+    background-color: cadetblue;
+
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+main {
+    font-family: 'Roboto';
+    display: flex;
+}
+
+form {
+    display: grid;
+    padding-left: 20%;
+}
